@@ -24,7 +24,7 @@ if length_input == 1:
         input_user = input_user.lower()
         # step 5, check if the letter is in secret_word
         if input_user in secret_word:
-            print(" -> Your answer is correct!")
+            print(" -> Your answer is correct! . . .")
         else : 
             print(" -> Unfortunately your answer is wrong!")
     else :
