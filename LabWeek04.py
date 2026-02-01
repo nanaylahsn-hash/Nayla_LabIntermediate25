@@ -50,7 +50,7 @@ while len(word_list) > 0:
         guess = input("Please input a letter: ").lower()
 
         if guess == "quit":
-            print("\n🚪 You chose to quit.")
+            print("\n You chose to quit.")
             print(f"Final Score → Wins: {wins}, Losses: {losses}")
             exit()
 
@@ -74,7 +74,7 @@ while len(word_list) > 0:
     print(f"Score → Wins: {wins}, Losses: {losses}")
 
     if len(word_list) == 0:
-        print("\n🎮 No more words left!")
+        print("\n No more words left!")
         break
 
     while True:
@@ -83,11 +83,11 @@ while len(word_list) > 0:
         if play_again == "yes" or play_again == "y":
             break
         elif play_again == "no" or play_again == "n":
-            print("\n🎯 Game Over")
+            print("\n Game Over")
             print(f"Final Score → Wins: {wins}, Losses: {losses}")
             exit()
         else:
             print(" -> Please answer yes or no!")
 
-print("\n🎯 Game Over")
+print("\n Game Over")
 print(f"Final Score → Wins: {wins}, Losses: {losses}")
